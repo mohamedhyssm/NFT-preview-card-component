@@ -1,2 +1,3 @@
 # NFT-preview-card-component
-card design
+
+Card Design From a Front End Mentor , using html scss
