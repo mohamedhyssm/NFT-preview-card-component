@@ -1,0 +1,130 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #0d192b;
+}
+.container .card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #14253d;
+  -webkit-box-shadow: 0 0 0 20px rgba(10, 22, 38, 0.4), 0 0 0 40px rgba(10, 22, 38, 0.1);
+          box-shadow: 0 0 0 20px rgba(10, 22, 38, 0.4), 0 0 0 40px rgba(10, 22, 38, 0.1);
+}
+.container .card .image {
+  width: 260px;
+  height: 260px;
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .card .image:hover {
+  background-image: url("../images/activeimage.PNG");
+}
+.container .card .text h2 {
+  color: white;
+  margin: 20px 0 10px;
+  font-size: 22px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.container .card .text h2:hover {
+  color: #00fff8;
+}
+.container .card .text p {
+  color: #8096b7;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.container .card .times {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(139, 172, 218, 0.3);
+}
+.container .card .times span:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+  color: #00fff8;
+}
+.container .card .times span:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+  color: #8bacd9;
+}
+.container .card .creation {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .card .creation img {
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.container .card .creation p {
+  color: #8096b7;
+}
+.container .card .creation p span {
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.container .card .creation p span:hover {
+  color: #00fff8;
+}
+
+/*# sourceMappingURL=main.css.map */
