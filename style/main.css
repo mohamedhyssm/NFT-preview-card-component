@@ -21,6 +21,7 @@ body {
           align-items: center;
   height: 100vh;
   background-color: #0d192b;
+  flex-direction: column;
 }
 .container .card {
   width: 300px;
